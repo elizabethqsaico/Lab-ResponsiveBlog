@@ -6,7 +6,7 @@ $font-family-titulo: "Courgette",sans-serif;
 $font-family-menu: "Kalam", sans-serif;
 $font-family-parrafo: "Kalam";
 
-*{ outline:1px solid rgba(255,0,0,0.3); }
+/**{ outline:1px solid rgba(255,0,0,0.3); }*/
 
 body{ font-family: $font-family-titulo; font-size: 14px; color: $color-parrafo; background: $background; }
 h1,h2,h3,h4,h5{ font-family: $font-family-titulo;  color: $color-titulo; margin: 0; padding: 0; }
