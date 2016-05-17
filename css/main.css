@@ -1,11 +1,156 @@
-/* Inserta tu codigo aqui */
+* {
+  outline: 1px solid rgba(255, 0, 0, 0.3); }
+
+body {
+  font-family: "Courgette", sans-serif;
+  font-size: 14px;
+  color: #fff;
+  background: #2E2E2E; }
+
+h1, h2, h3, h4, h5 {
+  font-family: "Courgette", sans-serif;
+  color: #FE9A2E;
+  margin: 0;
+  padding: 0; }
+
+p {
+  font-family: "Kalam"; }
+
+a {
+  font-family: "Kalam", sans-serif;
+  font-weight: italic;
+  color: #fff; }
+
+a:hover {
+  text-decoration: none;
+  color: #FE9A2E; }
+
+header {
+  background: #151515;
+  margin: 0;
+  padding: 0; }
+
+header img {
+  max-width: 50%; }
+
+header .dropdown-menu {
+  background-color: rgba(42, 44, 44, 0.6); }
+
+header .dropdown-menu a {
+  color: #fff;
+  background-color: rgba(42, 44, 44, 0.6); }
+
+header .dropdown-menu a:hover {
+  color: #FE9A2E;
+  background-color: rgba(42, 44, 44, 0.6); }
+
+.list-menu {
+  margin-top: 3%; }
+
+.list-menu a {
+  margin-left: 25%; }
+
+#spring-came .container {
+  background: url(../image/header-image.jpg);
+  background-size: cover;
+  background-position: top;
+  padding: 5% 25%;
+  margin-top: 2%;
+  margin-bottom: 2%; }
+
+#spring-came .hero-image {
+  background: #2E2E2E;
+  padding: 8% 2%; }
+
+#spring-came h1 {
+  font-size: 65px;
+  margin-bottom: 5%;
+  font-weight: bold; }
+
+#flowers .container {
+  margin-bottom: 2%;
+  padding: 0; }
+
+#flowers .container .col-md-4 {
+  padding-left: 0; }
+
+#flowers .flowers-text {
+  background: #151515;
+  padding: 3% 2%; }
+
+#flowers .flowers-text h4 {
+  padding-bottom: 5px; }
+
+#fashion .container {
+  padding: 0; }
+
+#fashion .container .col-md-8 {
+  background: #151515;
+  padding: 0; }
+
+#fashion .fashion-text {
+  background: #151515;
+  padding: 3% 2%; }
+
+#fashion .fashion-text h4 {
+  padding-bottom: 5px; }
+
+#fashion .fashion-text input {
+  background: #2E2E2E;
+  border: none; }
+
+#fashion .col-md-4 .fashion-text:nth-child(2) {
+  margin-top: 4%; }
+
+#fashion i {
+  font-size: 20px;
+  background: #2E2E2E;
+  border-radius: 50%;
+  padding: 2% 3%;
+  margin-right: 5%; }
+
+footer {
+  background: #151515;
+  margin-top: 2%; }
+
+footer p {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin: 0; }
 
 /* Responsive */
+/*@media screen and (max-width : 920px) { }*/
+@media (max-width: 600px) {
+  header img {
+    display: inline-block; }
 
-@media screen and (max-width : 920px) {
+  header .menu {
+    display: inline-block;
+    margin-top: 3%; }
 
-}
+  header .menu i {
+    font-size: 30px; }
 
-@media screen and (max-width: 600px) {
+  #spring-came {
+    padding: 5% 10%; }
 
-}
+  #spring-came .container {
+    padding: 5% 10%; }
+
+  #flowers {
+    padding-left: 10%;
+    padding-right: 10%; }
+
+  #flowers .col-md-4 {
+    padding-right: 0;
+    padding-bottom: 5%; }
+
+  #fashion {
+    padding: 5% 10%; }
+
+  footer p {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: 0; } }
+
+/*# sourceMappingURL=main.css.map */
